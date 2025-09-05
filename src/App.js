@@ -6,6 +6,9 @@ import Dashboard from "./pages/Dashboard";
 import Attendance from "./pages/Attendance";
 import FreeTime from "./pages/FreeTime";
 import Goals from "./pages/Goals";
+import ResetPassword from "./pages/ResetPassword";
+
+
 
 function App() {
   return (
@@ -17,6 +20,8 @@ function App() {
         <Route path="/attendance" element={<Attendance />} />
         <Route path="/free-time" element={<FreeTime />} />
         <Route path="/goals" element={<Goals />} />
+        // Inside Routes
+        <Route path="/reset-password" element={<ResetPassword />} />
       </Routes>
     </Router>
   );

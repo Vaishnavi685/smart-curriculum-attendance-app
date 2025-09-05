@@ -1,4 +1,134 @@
 body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background: #f4f6f9;
+  color: #333;
+   overflow: hidden;
+}
+
+.login-container {
+  width: 400px;
+  margin: 50px auto;
+  padding: 30px 25px;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+  text-align: center;
+  height: 100vh; /* Full screen height */
+}
+
+.login-logo {
+  width: 180px;
+  margin-bottom: 10px;
+}
+/*
+.login-header h1 {
+  margin: 0;
+  font-size: 24px;
+  margin-bottom: 20px;
+} */
+
+.role-selector {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 25px;
+}
+
+.role-btn {
+  flex: 1;
+  margin: 0 5px;
+  padding: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background: #f4f6f9;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.role-btn.active {
+  background: #4a90e2;
+  color: #fff;
+  border-color: #4a90e2;
+}
+
+.role-btn:hover {
+  background: #357ABD;
+  color: #fff;
+  border-color: #357ABD;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.login-form label {
+  margin: 10px 0 5px 0;
+  font-weight: 500;
+}
+
+.login-form input {
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  margin-bottom: 15px;
+  width: 100%;
+}
+
+
+
+.btn-primary {
+  background: #4a90e2;
+  color: #fff;
+  border: none;
+  padding: 12px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: 0.3s;
+}
+
+.btn-primary:hover {
+  background: #357ABD;
+}
+
+.qr-login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 15px;
+}
+
+.btn-qr {
+  background: #00c853;
+  color: #fff;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 5px;
+  font-size: 14px;
+}
+
+.btn-qr:hover {
+  background: #009624;
+}
+
+.signup-link {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.signup-link span {
+  color: #4a90e2;
+  cursor: pointer;
+}
+
+
+
+/*
+body {
   background: #e8ecf4;
   font-family: "Poppins", sans-serif;
 }
@@ -96,3 +226,4 @@ body {
   font-size: 14px;
   color: #222;
 }
+*/
